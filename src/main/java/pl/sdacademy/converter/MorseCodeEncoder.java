@@ -2,7 +2,13 @@ package pl.sdacademy.converter;
 
 public class MorseCodeEncoder {
 
-    public String encode(String text){
+    private final MorseCodeDictionary dictionary;
+
+    public MorseCodeEncoder(MorseCodeDictionary dictionary) {
+        this.dictionary = dictionary;
+    }
+
+    public String encode(String morseCode){
         return "";
     }
 }
